@@ -1,0 +1,19 @@
+{
+  "name": "matthewssite",
+  "version": "1.0.0",
+  "description": "mysite",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatthewSemprit/my-site.git"
+  },
+  "author": "Matthew-Semprit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

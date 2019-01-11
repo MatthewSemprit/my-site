@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	display: flex;
+
+}
+
+aside {
+	font-family: "Poiret One", serif
+	background: url("blackbackground.png") no-repeat left top;
+	height: 100vh;
+	flex: 1;
+	color: #bc4132;
+	text-align: center;
+    padding-top: 20vh;
+    position: fixed;
+    width: 40vw;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main {
+	
+	.skills{
+		color: rgb(#221022);
+	}
+
+
+	background: #ffb90f;
+	height: 100vh;
+	flex: 2;
+
+}
+p {
+	font-family: 'Fredoka One', cursive;
+
+}

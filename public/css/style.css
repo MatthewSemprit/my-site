@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	display: flex;
+
+}
+/*card*/
+aside {
+	font-family: 'Poiret One', cursive;
+	height: 100vh;
+	flex: 1;
+	color: #bc4132;
+	text-align: center;
+    padding-top: 15vh;
+    padding-left: 5vh;
+    position: fixed;
+  
+}
+/*intro*/
+p {
+	font-family: 'Poiret One', cursive;
+
+}
+
+
+#skills {
+	background-color: #5cbee7;
+	height: 70vh;
+
+}
+
+#my-journey {
+	background-color: #c70039;
+	height: 70vh;
+}
+
+#hobbies {
+	background-color: #ff5733;
+	height: 70vh;
+}
+
+#contact-me {
+	background-color: #daf7a6;
+	height: 70vh;
+}
+
+
+main {
+	
+
+
+	background: #ffb90f;
+	height: 100vh;
+	flex: 2;
+
+}
