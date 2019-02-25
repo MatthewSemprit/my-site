@@ -5,7 +5,7 @@ const http = require('http').Server(app);
 const io = require('socket.io')(http);
 const port = 3000;
 
-app.use(express.static('../../public/'));
+app.use(express.static('../../../'));
 
 io.on('connection', function(socket){
   console.log('a user connected');
