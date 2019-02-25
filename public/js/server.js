@@ -1,9 +1,17 @@
-const express = require('express')
-const app = express()
-const port = 3000
+const express = require('express');
 
-app.use(express.static('../../public/'))
+const app = express();
+const http = require('http').Server(app);
+const io = require('socket.io')(http);
+const port = 3000;
 
-app.get('/', (req, res) => res.send('Happy'))
+app.use(express.static('../../public/'));
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+io.on('connection', function(socket){
+  console.log('a user connected');
+});
+
+http.listen(port, function(){
+  console.log('listening on *:3000');
+});
+

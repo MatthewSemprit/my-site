@@ -1,20 +1,29 @@
 
-
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* make scrollbar invisible */
+}
 
 
 body {
-	margin: 0;
+	background-image: url("/images/blackbackground.png");
+	background-attachment: fixed;
 	display: flex;
-
 }
 
 /*main page*/
-main {
-	background: #ffb90f;
-	height: 100vh;
-	flex: 2;
+main{
+	padding: 25px 50px 0;
+    flex: 3;
 }
 
+#skills, #my-journey, #hobbies, #contact-me, #map-section {
+	padding-bottom: 25px;
+}
 
 /*card*/
 aside {
@@ -22,16 +31,20 @@ aside {
 	font-size: 20px;
 	height: 100vh;
 	flex: 1;
-	color: #bc4132;
 	text-align: center;
-    padding-top: 5vh;
+    padding-top: 25px;
     padding-left: 5vh;
-    position: fixed;
   }
-
-.card {
-	height: 635px;
+/*card bootstrap*/
+#intro-card {
+	height: 655px;
+	position: fixed;
 }  
+/*buttons in card*/
+.list-group-item {
+	background-color: transparent !important;
+
+}
 
 
 /*card background*/
@@ -42,7 +55,8 @@ canvas {
 	top: 0;
 	bottom: 0;
 	left: 0;
-	right: 0;  }
+	right: 0; 
+	 }
 
 
 /*intro*/
@@ -51,33 +65,24 @@ p {
 }
 
 
-#skills {
-	background-color: #5cbee7;
-	height: 70vh;
-}
-
-
-#my-journey {
-	background-color: #c70039;
-	height: 70vh;
-}
-
-
-#hobbies {
-	background-color: #ff5733;
-	height: 70vh;
-}
-
-
 #contact-me {
-	background-color: #daf7a6;
-	height: 70vh;
+	background-color: transparent !important;
 }
-
 
 #particles-js {
 	height: 100vh;
 }
 
+.grey-theme {
+	background-color: #AAC4CF !important;
+}
 
 
+img {
+	height: 300px;
+	width: auto;
+}
+
+#map {
+    height: 100vh;
+}
