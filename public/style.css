@@ -10,7 +10,7 @@ html {
 
 
 body {
-	background-image: url("/images/blackbackground.png");
+	background-image: url("./images/blackbackground.png");
 	background-attachment: fixed;
 	display: flex;
 }
