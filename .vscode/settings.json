@@ -1,0 +1,3 @@
+{// Specifies whether to provide any hovers
+    "gitlens.hovers.enabled": false
+}
