@@ -7,15 +7,9 @@
 	<script src="./js/particles.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="./css/normalize.css">
-	<script type="text/javascript">
-		var map;
-	function initMap() {
-		map = new google.maps.Map(document.getElementById('map'), {
-		  center: {lat: 41.8, lng: 272.244},
-		  zoom: 10
-		});
-	}
-	</script>
+	
+	
+
 
 	
 
@@ -32,24 +26,32 @@
 
 	<link rel="stylesheet" type="text/css" href="./style.css">
 
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="css/mdb.min.css" rel="stylesheet">
 </head>
 <body>
-	<aside>
-		<div id="intro-card" class="card grey-theme"  style="width: 18rem">
 
-			<div id="particles-js">
-				<canvas class="particles-js-canvas-el" width="187" height="890"></canvas>		
+		<!--<div id="particles-js">
+				<canvas class="particles-js-canvas-el" width="auto" height="auto"></canvas>-->
+
+	<aside>
+		<div id="intro-card" class="card theme-color"  style="width: 10rem">
+
+					
 
 				<div class="card-body">
-					<h5 class="card-title">Matthew </h5>
+					<h5 class="card-title">
+						<img class="mos" src="./images/MOS.jpg"
+							alt="MOS">
+					</h5>
 
-					<p class="card-text">Hello, My name is Matthew Semprit, I'm a Junior Developer my biggest passion in life besides my wife is cars, let me show you what really gets my gears going!
-					</p>
+			
 
 				</div>
 
 				<ul class="list-group list-group-flush">
-					<li class="list-group-item">Skills</li>
+					<li class="list-group-item">Resume</li>
 					<li class="list-group-item">My Journey</li>
 					<li class="list-group-item">Hobbies</li>
 					<li class="list-group-item">Contact Me</li>
@@ -63,8 +65,7 @@
 
 				</div>
 
-				<div class="card-footer text-muted">
-					Welcome!
+			
 				</div>
 
 			</div>
@@ -74,113 +75,210 @@
 
 	<main>
 
+<!-- Alternate: Background Image Parallax -->
+<div class="jarallax" src="./images/MOS.jpg">
+		Your content here...
+	  </div>
+
 		<div id="skills">
-			<div class="accordion" id="accordionExample">
-				<div class="card grey-theme">
-					<div class="card-header" id="headingOne">
-						<h2 class="mb-0">
-							<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false
-							" aria-controls="collapseOne">
-							Education 
-						</button>
-					</h2>
-				</div>
 
-				<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-					<div class="card-body">
-							University of The People 
-							2018-2022
-							B.A. Computer Science 
-							
-							Sheridan Technical College 
-							2012-2014
-							FCA Automotive Repair 
-							
-							Hallandale All Magnet Highschool
-							Graduated 2011
-							
-					</div>
-				</div>
+
+<!-- Section: Features v.4 -->
+<section class="my-5">
+
+		<!-- Section heading -->
+		<h2 class="h1-responsive font-weight-bold text-center my-5">Matthew Semprit</h2>
+		<!-- Section description -->
+		<p class="lead grey-text text-center w-responsive mx-auto mb-5">Hello, My name Is Matthew Semprit but Matt works too, im a junior 
+			software developer, former FCA (Fiat Chrysler Automobiles) master Technician, tinkerer/builder and Awesome husband (Certified Awesome).</p>
+	  
+		<!-- Grid row -->
+		<div class="row">
+	  
+		  <!-- Grid column -->
+		  <div class="col-md-4">
+	  
+			<!-- Grid row -->
+			<div class="row mb-3">
+	  
+			  <!-- Grid column -->
+			  <div class="col-2">
+				<i class="fas fa-2x fa-flag-checkered deep-purple-text"></i>
+			  </div>
+			  <!-- Grid column -->
+	  
+			  <!-- Grid column -->
+			  <div class="col-10">
+				<h5 class="font-weight-bold mb-3">Business professionals of America</h5>
+				<p class="grey-text">Placing 2nd in regionals for C++..</p>
+			  </div>
+			  <!-- Grid column -->
+	  
 			</div>
-			<div class="card grey-theme">
-				<div class="card-header" id="headingTwo">
-					<h2 class="mb-0">
-						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-							Skills and Languages
-						</button>
-					</h2>
-				</div>
-				<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-					<div class="card-body">
-
-							Python, JavaScript, R, 
-							HTML5, CSS3, 
-							Github, GitBash
-							
-						<div class="progress">
-						<div class="progress-bar bg-success progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-						<div class="progress">
-						<div class="progress-bar bg-info progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-						<div class="progress">
-						<div class="progress-bar bg-warning progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-						<div class="progress">
-						<div class="progress-bar bg-danger progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-						<div class="progress">
-						<div class="progress-bar bg-warning progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-						<div class="progress">
-						<div class="progress-bar bg-danger progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-						</div>
-					</div>
-				</div>
+			<!-- Grid row -->
+	  
+			<!-- Grid row -->
+			<div class="row mb-3">
+	  
+			  <!-- Grid column -->
+			  <div class="col-2">
+				<i class="fas fa-2x fa-flask deep-purple-text"></i>
+			  </div>
+			  <!-- Grid column -->
+	  
+			  <!-- Grid column -->
+			  <div class="col-10">
+				<h5 class="font-weight-bold mb-3">Business professionals of America</h5>
+				<p class="grey-text">Business professionals of America competition winner 
+						Placing 1st in regionals for cisco systems administration</p>
+			  </div>
+			  <!-- Grid column -->
+	  
 			</div>
-			<div class="card grey-theme">
-				<div class="card-header" id="headingThree">
-					<h2 class="mb-0">
-						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-							Work History and Experiences 
-						</button>
-					</h2>
-				</div>
-				<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-					<div class="card-body">
+			<!-- Grid row -->
+	  
+			<!-- Grid row -->
+			<div class="row mb-md-0 mb-3">
+	  
+			  <!-- Grid column -->
+			  <div class="col-2">
+				<i class="fas fa-2x fa-glass-martini deep-purple-text"></i>
+			  </div>
+			  <!-- Grid column -->
+	  
+			  <!-- Grid column -->
+			  <div class="col-10">
+				<h5 class="font-weight-bold mb-3">Career Experiences</h5>
+				<p class="grey-text mb-md-0">
+					<ul><li>
+						MASTER AUTOMOTIVE TECHNICIAN
+						FIAT CHRYSLER AUTOMOBILES (FCA)
+						OCTOBER 2012-JULY 2018
+														  
+						Performed vehicle diagnostics and repairs while keeping repair times and costs at a minimum. Using vehicle input and output data from 
+						various modules to verify operation and aid in repair procedures.
+						Performed flash updates and module calibration procedures.
+						Accurately convert vehicle technical data and terms into clear recognizable information for the customer.
 
-							MASTER AUTOMOTIVE TECHNICIAN
-							FIAT CHRYSLER AUTOMOBILES (FCA)
-							OCTOBER 2012-JULY 2018
-															  
-							Performed vehicle diagnostics and repairs while keeping repair times and costs at a minimum. Using vehicle input and output data from 
-							various modules to verify operation and aid in repair procedures.
-							Performed flash updates and module calibration procedures.
-							Accurately convert vehicle technical data and terms into clear recognizable information for the customer.  
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="my-journey">
-		<div class="jumbotron grey-theme">
-			<h1 class="display-4">Acheivements</h1>
-			<p class="lead">Business professionals of America competition winner 
-					Placing 1st in regionals for cisco systems administration 
-					Placing 2nd in regionals for C++.
+				</li></ul>
 			</p>
-			<a class="btn btn-primary btn-lg" href="www.linkedin.com/in/matthew-semprit/ " role="button">Learn more at Linked In</a>
+			  
 		</div>
-	</div>
+			  <!-- Grid column -->
+	  
+			</div>
+			<!-- Grid row -->
+	  
+		  </div>
+		  <!-- Grid column -->
+	  
+		  <!-- Grid column -->
+		  <div class="col-md-4 text-center">
+			<img class="img-fluid" src="https://mdbootstrap.com/img/Mockups/Transparent/Small/iphone-portfolio1.png"
+			  alt="Sample image">
+		  </div>
+		  <!-- Grid column -->
+	  
+		  <!-- Grid column -->
+		  <div class="col-md-4">
+	  
+			<!-- Grid row -->
+			<div class="row mb-3">
+	  
+			  <!-- Grid column -->
+			  <div class="col-2">
+				<i class="far fa-2x fa-heart deep-purple-text"></i>
+			  </div>
+			  <!-- Grid column -->
+	  
+			  <!-- Grid column -->
+			  <div class="col-10">
+				<h5 class="font-weight-bold mb-3">Skills</h5>
+				<p class="grey-text">		Python, JavaScript, R, 
+						HTML5, CSS3, 
+						Github, GitBash</p>
+			  </div>
+			  <!-- Grid column -->
+	  
+			</div>
+			<!-- Grid row -->
+	  
+			<!-- Grid row -->
+			<div class="row mb-3">
+	  
+			  <!-- Grid column -->
+			  <div class="col-2">
+				<i class="fas fa-2x fa-bolt deep-purple-text"></i>
+			  </div>
+			  <!-- Grid column -->
+	  
+			  <!-- Grid column -->
+			  <div class="col-10">
+				<h5 class="font-weight-bold mb-3">Education</h5>
+				<p class="grey-text">
+					<ul>	
+					    <li>						
+					University of The People 
+					2018-2022
+					B.A. Computer Science </li>
+						
+						<li>
+					Sheridan Technical College 
+					2012-2014
+					FCA Automotive Repair</li> 
+						
+						<li>
+					Hallandale All Magnet Highschool
+					Graduated 2011</li>
+				
+			</ul>
+				</p>
+			  </div>
+			  <!-- Grid column -->
+	  
+			</div>
+			<!-- Grid row -->
+	  
+			<!-- Grid row -->
+			<div class="row">
+	  
+			  <!-- Grid column -->
+			  <div class="col-2">
+				<i class="fas fa-2x fa-magic deep-purple-text"></i>
+			  </div>
+			  <!-- Grid column -->
+	  
+			  <!-- Grid column -->
+			  <div class="col-10">
+				<h5 class="font-weight-bold mb-3">Magical</h5>
+				<p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+				  maiores nam, aperiam minima assumenda deleniti hic.</p>
+			  </div>
+			  <!-- Grid column -->
+	  
+			</div>
+			<!-- Grid row -->
+	  
+		  </div>
+		  <!-- Grid column -->
+	  
+		</div>
+		<!-- Grid row -->
+	  
+	  </section>
+	  <!-- Section: Features v.4 -->
+
+	  
+
+
+
+
+
+
 
 
 	<div id="hobbies">
-		<img src="./images/soup2.jpg" alt="Home made shrimp pho">
 
-		<img src="./images/soup.jpg" alt="More shrimp Pho">
-
-		<img src="./images/car.jpg" alt="Toys">
 
 
 		<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/7afeb36022de56f5b8788b66b2f41abb.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
@@ -192,6 +290,35 @@
 	</div>
 
 	<div id="contact-me">
+
+<!-- Side Modal Top Right -->
+
+<!-- To change the direction of the modal animation change .right class -->
+<div class="modal fade right" id="sideModalTR" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+
+  <!-- Add class .modal-side and then add class .modal-top-right (or other classes from list above) to set a position to the modal -->
+  <div class="modal-dialog modal-side modal-top-right" role="document">
+
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title w-100" id="myModalLabel">Modal title</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Side Modal Top Right -->
 	</div>
 
 	<div id="map-section">

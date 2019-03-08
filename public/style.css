@@ -10,14 +10,14 @@ html {
 
 
 body {
-	background-image: url("./images/blackbackground.png");
+	
 	background-attachment: fixed;
 	display: flex;
 }
 
 /*main page*/
 main{
-	padding: 25px 50px 0;
+	padding: 20px 50px 0;
     flex: 3;
 }
 
@@ -29,15 +29,15 @@ main{
 aside {
 	font-family: 'Poiret One', cursive;
 	font-size: 20px;
-	height: 100vh;
+	height: 40vh;
 	flex: 1;
 	text-align: center;
-    padding-top: 25px;
-    padding-left: 5vh;
+    padding-top: 5em;
+ 
   }
 /*card bootstrap*/
 #intro-card {
-	height: 655px;
+	height: 360px;
 	position: fixed;
 }  
 /*buttons in card*/
@@ -48,9 +48,9 @@ aside {
 
 
 /*card background*/
-canvas { 
+.mos { 
 	width: 100%;
-	height: 100%;
+	height: 17%;
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -73,8 +73,8 @@ p {
 	height: 100vh;
 }
 
-.grey-theme {
-	background-color: #AAC4CF !important;
+.theme-color {
+	background-color: rgba(233, 176, 55, 0.788) !important;
 }
 
 
@@ -84,5 +84,5 @@ img {
 }
 
 #map {
-    height: 100vh;
+    height: 50vh;
 }
