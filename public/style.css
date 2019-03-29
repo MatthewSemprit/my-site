@@ -27,6 +27,8 @@ body {
 	position: relative;
 	min-height: 100vh;
 	width: 100vw;
+	padding-left: 12em;
+	height: 100%;
 	  /* transform-style: inherit; */
   }
   
@@ -127,6 +129,10 @@ p {
 
 #particles-js {
 	height: 100vh;
+	/* TODO: Fix scroll issue, the display flex on the body is conflicting with this and scrolling */
+	width: 100vw;
+    position: absolute;
+    z-index: 10000000;
 }
 
 .theme-color {
